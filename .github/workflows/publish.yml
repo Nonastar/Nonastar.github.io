@@ -1,6 +1,8 @@
 on:
   push:
     branches: [main]
+    paths:
+      - logseq/
     paths-ignore:
       - '*.md'
 permissions:
